@@ -1,26 +1,32 @@
-
 h1 {
-  color: red;
+    color:red;
+}
+.card {
+border: 1px solid #22D3EE;
+border-radius: 12px;
+padding: 1.5rem;
+text-align: center;
+max-width: 280px;
 }
 
-body {
-  margin: 0px;
-  padding: 0px;
+body{
+    margin:0px;
+    padding:0px;
 }
 
-.navbar {
-  border: 1px solid #000000;
-  background-color: #e444;
-  padding: 10px;
+.navbar{
+    /* border:1px solid #000000; */
+    background-color:#444;
+    padding:10px;
 }
 
-.navbar a {
-  color: #ffff;
-  text-decoration: none;
-  padding: 10px;
+.navbar a{
+    color:#ffff;
+    text-decoration:none;
+    padding:10px;
 }
 
-.navbar a:hover {
-  background-color: #666;
-  padding: 10px;
+.navbar a:hover{
+    background-color:#6666;
+    padding:10px;
 }

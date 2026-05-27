@@ -1,4 +1,5 @@
-console.log("Hello from JS");
+console.log("Hello,from JS");
+
 
 var users = [
     {"name" : "John", "gender" : "Male", "img" : "image/john.png"},

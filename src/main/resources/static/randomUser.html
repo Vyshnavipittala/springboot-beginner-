@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random User</title>
+
+    <link rel="stylesheet" href="css/site.css">
+    <link rel="stylesheet" href="css/card.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <div class="navbar">
+        <a href="/">Home</a>
+        <a href="/card.html">Card</a>
+        <a href="/toggle.html">Toggle</a>
+        <a href="/randomUser.html">RandomUser</a>
+    </div>
+
+    <h1>Random User</h1>
+
+    <!-- Card -->
+    <div class="card">
+
+        <img id="userImage" src="/image/john.png" alt="User Image">
+
+        <div class="card-content">
+
+            <h4 id="userName">John Doe</h4>
+
+            <p id="userGender">Male</p>
+
+        </div>
+
+    </div>
+
+    <br>
+
+    <!-- Button -->
+    <button onclick="getANDisplayNextRandomUser()">
+        Get Random User
+    </button>
+
+    <!-- JS Files -->
+    <script src="js/site.js"></script>
+    <script src="js/randomUser.js"></script>
+
+</body>
+</html>
